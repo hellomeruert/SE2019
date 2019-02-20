@@ -6,6 +6,14 @@ public class Item {
     private String storeId;
     private double price;
 
+    public Item(String name,String id,String storeId, double price){
+        this.name = name;
+        this.id = id;
+        this.storeId = storeId;
+        this.price = price;
+    }
+
+
     public void setName(String name) {
         this.name = name;
     }
@@ -38,4 +46,6 @@ public class Item {
     public String toString() {
         return id +" "+ name+" "+price+" "+storeId;
     }
+
+
 }
