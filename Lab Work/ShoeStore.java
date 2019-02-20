@@ -1,4 +1,4 @@
-ackage soft;
+package soft;
 
 import java.util.ArrayList;
 import java.util.HashMap;
